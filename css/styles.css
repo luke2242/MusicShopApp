@@ -1,0 +1,17 @@
+html{
+    background-color: rgb(226, 255, 254);
+}
+
+body{
+    text-align: center;
+}
+
+.col {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.col div {
+  text-align: center;
+  border: 1px solid black;
+}
