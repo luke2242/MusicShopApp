@@ -1,0 +1,16 @@
+{
+    "shopItems": [
+        {
+            "name": "Book of Moon",
+            "price": 21.33
+        },
+        {
+            "name": "Record Player",
+            "price": 119.99
+        },
+        {
+            "name": "Guitar",
+            "price": 299.99
+        }
+    ]
+}
