@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link" href="upcomingUpdates.html">Updates</a>
+        <a class="nav-link">Page 2</a>
+        <input type="text" id="musicInput" placeholder="Search songs, artists, albums...">
+<br>
+<button class="btn" id="musicSearch" onclick="search()" type="button">
+    Search
+</button>
+    </div>
+
+    <div class="container">
+        <h2>Playlist Adder</h2>
+        <p>Add music into your personalised playlist</p>
+    </div>
+
+    <br>
+
+    <div class="addToPlaylist">
+        <input type="text" placeholder="Song" id="song">
+        <input type="text" placeholder="Artist" id="artist">
+        <button type="button" class="btn" id="addBasket" onclick="addToPlaylist()">Add to playlist</button>
+    </div>
+    <br>
+
+    <div id="musicDiv" class="musicDiv">
+
+    </div>
+
+    <br>
+
+    <div id="yourSearches">
+        <h3></h3>
+    </div>
+
+</body>
+
+
+<script src="../scripts/searchBar.js">
+</script>
+<script src="../scripts/playlist.js">
+</script>
+<script src="../scripts/musicData.js">
+</script>
+
+
+
+</html>

@@ -1,0 +1,44 @@
+# Environment files
+.env
+.env.*
+.env.local
+.env.test
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.tgz
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+.cache/
+.parcel-cache/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Databases / keys
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+*.p12
