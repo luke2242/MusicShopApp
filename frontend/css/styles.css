@@ -1,9 +1,11 @@
-html{
-    background-color: rgb(226, 255, 254);
+html {
+  background-color: rgb(131, 131, 129);
 }
 
-body{
-    text-align: center;
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .col {
@@ -11,29 +13,73 @@ body{
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
 .col div {
   text-align: center;
   border: 1px solid black;
 }
 
-#musicSearch{
-  visibility: hidden;
-  max-height: 0;
-}
 
-.musicDiv{
+.musicDiv {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 20px;
 }
 
-.musicDiv div{
+.musicDiv div {
   font-size: 10px;
   text-align: center;
   padding: 20px
 }
 
-.addToPlaylist{
+.addToPlaylist {
   visibility: hidden;
   max-height: collapse;
 }
+
+.discogsLink {
+  text-align: center;
+}
+
+.navbar {
+  margin: 0;
+  padding-top: 30px;
+  background-color: rgb(197, 197, 197);
+  padding-bottom: 20px;
+    color: black;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar ul li {
+  float: left;
+  align-items: center;
+}
+
+
+.navbar ul li a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+  color: rgb(0, 115, 182);
+}
+
+.navbar ul li input {
+  float: right;
+  margin-right: 0;
+}
+
+.navbar ul li button {
+  display: block;
+  margin: 0 auto;
+}
+

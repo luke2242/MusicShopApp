@@ -9,17 +9,21 @@
 </head>
 
 <body>
-
     <div class="navbar">
-        <a class="nav-link" href="home.html">Home</a>
-        <a class="nav-link" href="upcomingUpdates.html">Updates</a>
-        <a class="nav-link">Page 2</a>
-        <input type="text" id="musicInput" placeholder="Search songs, artists, albums...">
-        <br>
-        <button class="btn" id="musicSearch" onclick="search()" type="button">
-            Search
-        </button>
+        <ul class="navList">
+            <li><a class="nav-link" href="home.html">Home</a></li>
+            <li><a class="nav-link" href="upcomingUpdates.html">Updates</a></li>
+            <form method="GET" action="/musicData">
+                <li><input type="text" id="musicInput" placeholder="Search songs, artists, albums..." name="searchTerm">
+                </li>
+                <br>
+                <li><button class="btn" id="musicSearch" type="submit">
+                        Search
+                    </button></li>
+            </form>
+        </ul>
     </div>
+
     <h1>Upcoming Features</h1>
     <ul>
         <li>Search Functionality</li>

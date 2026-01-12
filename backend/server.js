@@ -3,7 +3,7 @@ const cors = require('cors');
 const express = require('express');
 const app = express();
 const PORT = 3000;
-const musicRoute = require('./routes/MusicData');
+const musicRoute = require('./routes/musicRoute');
 
 app.use(cors());
 app.use('/api', musicRoute);
