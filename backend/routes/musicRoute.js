@@ -7,6 +7,7 @@ router.get("/musicData", async (req, res) => {
 
     const { q = 'nier' } = req.query;
 
+    
     try {
         const result = await axios.get("https://api.discogs.com/database/search", {
             

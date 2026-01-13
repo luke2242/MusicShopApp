@@ -11,16 +11,15 @@
 <body>
     <div class="navbar">
         <ul class="navList">
+            <li><button class="btn" id="musicSearch" type="submit">
+                    Search
+                </button></li>
+            <li><input type="text" id="musicInput" placeholder="Search songs, artists, albums..." name="searchTerm">
+            </li>
+
             <li><a class="nav-link" href="home.html">Home</a></li>
             <li><a class="nav-link" href="upcomingUpdates.html">Updates</a></li>
-            <form>
-                <li><input type="text" id="musicInput" placeholder="Search songs, artists, albums..." name="searchTerm">
-                </li>
-                <br>
-                <li><button class="btn" id="musicSearch" type="submit">
-                        Search
-                    </button></li>
-            </form>
+            <li><a class="nav-link" href="yourWishlist.html">Wishlist</a></li>
         </ul>
     </div>
 
@@ -53,9 +52,6 @@
 
 </body>
 
-
-<script src="../scripts/searchBar.js">
-</script>
 <script src="../scripts/playlist.js">
 </script>
 <script src="../scripts/musicData.js">

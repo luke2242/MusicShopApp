@@ -57,7 +57,7 @@ body {
 }
 
 .navbar ul li {
-  float: left;
+  float: right;
   align-items: center;
 }
 
